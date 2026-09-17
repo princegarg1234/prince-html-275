@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body {
+                background-color: rgb(10, 143, 184);
+                font-family: Arial, sans-serif;
+            }
+
+            form {
+                display: inline-grid;
+                grid-template-columns: 140px 240px; 
+                gap: 15px 12px;
+                text-align: left;
+                align-items: center;
+                font-size: 16px;
+                color: black;
+            }
+
+            label {
+                font-weight: bold;
+            }
+
+            .gender-options {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+            }
+
+            .button-row {
+                display: flex;
+                gap: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <br>
+            <font color="black" size="6" face="Georgia">
+                <b>REGISTRATION FORM</b>
+            </font>
+
+            <br><br><br>
+
+            <form>
+                <label>Full Name:</label>
+                <input type="text" name="fullname">
+
+                <label>Gender:</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+
+                <label>Address:</label>
+                <input type="text" name="address">
+
+                <label>Date of Birth:</label>
+                <input type="text" name="DOB">
+
+                <label>Aadhar Card:</label>
+                <input type="text" name="Aadhar_card">
+
+                <label>Father's Name:</label>
+                <input type="text" name="Fathername">
+
+                <label>Mother's Name:</label>
+                <input type="text" name="Mothername">
+
+                <label>10th Marks:</label>
+                <input type="text" name="10th Marks">
+
+                <label>12th Marks:</label>
+                <input type="text" name="12th Marks">
+
+                <label>JEE Percentile:</label>
+                <input type="text" name="JEE Percentile">
+
+                <label>Email ID:</label>
+                <input type="text" name="Email Id">
+
+                <label>Password:</label>
+                <input type="password" name="password">
+
+                
+
+                <div></div>
+                <div class="button-row">
+                    <input type="submit" value="REGISTER">
+                    <input type="reset" value="CLEAR">
+                </div>
+            </form>
+        </center>
+    </body>
+</html>
